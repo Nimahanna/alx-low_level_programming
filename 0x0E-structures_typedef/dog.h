@@ -8,13 +8,14 @@
 	 * @age: Second member
 	 * @owner: Third member
 	 *
-	 * Description: Longer description
+	 * Description: This structure holds information about a dog
+	 including its name, age, and owner.
 	 */
 	struct dog
 	{
-		char *name;
-		float age;
-		char *owner;
+		char *name; /* The name of the dog */
+		float age;  /* The age of the dog */
+		char *owner; /* The owner of the dog */
 	};
 
 
